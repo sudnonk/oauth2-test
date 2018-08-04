@@ -1,8 +1,8 @@
 <?php
     require_once "vendor/autoload.php";
 
-    $dsn      = 'mysql:dbname=oauth2_test;host=localhost;charset=utf-8';
-    $username = '';
+    $dsn      = 'mysql:dbname=oauth2_test;host=localhost;charset=utf8';
+    $username = 'root';
     $password = '';
 
     /** @var OAuth2\Storage\Pdo $storage データベースのこと */
